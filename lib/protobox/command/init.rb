@@ -24,7 +24,7 @@ module Protobox
 
         # Get installation folder
         puts "Protobox will now be installed at:"
-        puts current_dir
+        puts install_folder
 
         #install_folder = Protobox::Util::Input.get_input
         Util::Input.enter_or_abort # if STDIN.tty?
