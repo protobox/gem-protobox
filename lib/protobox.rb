@@ -1,5 +1,5 @@
 require "protobox/version"
-
-module Protobox
-  # Your code goes here...
-end
+require "protobox/errors"
+require "protobox/util"
+require "protobox/commands"
+require "protobox/cli"

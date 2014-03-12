@@ -45,10 +45,10 @@ Gem::Specification.new do |spec|
     end
   end
 
-  s.files         = unignored_files
-  s.executables   = unignored_files.map { |f| f[/^bin\/(.*)/, 1] }.compact
-  s.require_path  = 'lib'
+  spec.files         = unignored_files
+  spec.executables   = unignored_files.map { |f| f[/^bin\/(.*)/, 1] }.compact
+  spec.require_path  = 'lib'
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  #spec.add_development_dependency "rake"
 end
